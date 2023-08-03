@@ -10,6 +10,10 @@ h1 {
   text-align: center;
 }
 
+h2 {
+/* float:left; */
+}
+
 .column {
   text-align: center;
   float: right;
@@ -22,6 +26,11 @@ h1 {
 margin-right: 10px;
  width: 17%;
 box-sizing: border-box;
+}
+
+.column-container {
+display: flex;
+justify-content: space-between;
 }
 
 #elephant img {
@@ -41,7 +50,7 @@ box-sizing: border-box;
 #dog img {
   width: 100%;
 }
-
+/* media queries need to be located at the bottom of CSS sheets to prevent other style rules from overriding them */
 @media screen and (max-width: 500px) {
   .column {
 width: 40px;
