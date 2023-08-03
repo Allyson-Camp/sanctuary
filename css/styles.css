@@ -43,6 +43,7 @@ justify-self: center;
 }
 #parrot img {
   width: 100%;
+  border-radius: 50%;
 }
 
 #tiger img {
@@ -80,22 +81,12 @@ background-color: transparent;
 text-decoration: underline;
 }
 
-/* #list {
-  border: 2px solid black;
-  text-align: center;
+.card-body  {
+  border: 2px black solid;
 }
-
-#list2 {
-  border: 2px solid black;
-  width: 20%;
-  text-align: center;
+.card-img-bottom {
+  width: 100%;
 }
-
-#list3 {
-  border: 2px solid black;
-  width: 20%;
-  text-align: center;
-} */
 
 /* media queries need to be located at the bottom of CSS sheets to prevent other style rules from overriding them */
 @media screen and (max-width: 575px) {
