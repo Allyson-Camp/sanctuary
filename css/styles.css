@@ -81,11 +81,28 @@ background-color: transparent;
 text-decoration: underline;
 }
 
-.card-body  {
-  border: 2px black solid;
+.card {
+  margin: 5px;
 }
+
+.card-body  {
+  border: 1px black solid;
+  border-bottom: 0px;
+}
+
+.card p {
+  margin-bottom: 0px;
+  padding: 5px;
+}
+
 .card-img-bottom {
   width: 100%;
+
+}
+
+.card-footer {
+  border: 1px black solid;
+  padding: 5px;
 }
 
 /* media queries need to be located at the bottom of CSS sheets to prevent other style rules from overriding them */
