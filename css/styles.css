@@ -80,9 +80,22 @@ background-color: transparent;
 text-decoration: underline;
 }
 
-#list {
+/* #list {
   border: 2px solid black;
+  text-align: center;
 }
+
+#list2 {
+  border: 2px solid black;
+  width: 20%;
+  text-align: center;
+}
+
+#list3 {
+  border: 2px solid black;
+  width: 20%;
+  text-align: center;
+} */
 
 /* media queries need to be located at the bottom of CSS sheets to prevent other style rules from overriding them */
 @media screen and (max-width: 575px) {
