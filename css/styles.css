@@ -50,6 +50,42 @@ justify-content: space-between;
 #dog img {
   width: 100%;
 }
+
+.about-us-div {
+  float: left;
+}
+.media-div {
+  float: right;
+}
+
+.media-div img {
+  
+}
+
+.media-div a:link {
+color: white;
+background-color: transparent;
+text-decoration: none;
+}
+
+.media-div a:visited {
+color: pink;
+background-color: transparent;
+text-decoration: none;
+}
+
+.media-div a:hover {
+color: rgb(246, 238, 246);
+background-color: transparent;
+text-decoration: underline;
+}
+
+.media-div a:active {
+color: rgb(246, 238, 246);
+background-color: transparent;
+text-decoration: underline;
+}
+
 /* media queries need to be located at the bottom of CSS sheets to prevent other style rules from overriding them */
 @media screen and (max-width: 500px) {
   .column {
