@@ -31,6 +31,7 @@ box-sizing: border-box;
 .column-container {
 display: flex;
 justify-content: space-between;
+justify-self: center;
 }
 
 #elephant img {
@@ -51,15 +52,8 @@ justify-content: space-between;
   width: 100%;
 }
 
-.about-us-div {
-  float: left;
-}
-.media-div {
-  float: right;
-}
-
 .media-div img {
-  
+  width: 100%;
 }
 
 .media-div a:link {
@@ -86,10 +80,16 @@ background-color: transparent;
 text-decoration: underline;
 }
 
+#list {
+  border: 2px solid black;
+}
+
 /* media queries need to be located at the bottom of CSS sheets to prevent other style rules from overriding them */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 575px) {
   .column {
-width: 40px;
+width: 120px;
 float: left;
+justify-self: center;
   }
 }
+
