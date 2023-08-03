@@ -1,11 +1,9 @@
 body {
-    background-image: linear-gradient(to left top, rgb(188, 188, 236), red);
+   background-image:linear-gradient(to left top, rgb(188, 188, 236), red);
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    color: white;
-}
-
-h2 {
-
+   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 h1 {
@@ -13,9 +11,17 @@ h1 {
 }
 
 .column {
-  width: 15%;
   text-align: center;
   float: right;
+  border: groove black 5px;
+  border-radius: 10px;
+  padding: 10px;
+  display: block;
+  margin: 0px auto;
+  margin-left: 10px;
+margin-right: 10px;
+ width: 17%;
+box-sizing: border-box;
 }
 
 #elephant img {
@@ -36,3 +42,9 @@ h1 {
   width: 100%;
 }
 
+@media screen and (max-width: 500px) {
+  .column {
+width: 40px;
+float: left;
+  }
+}
