@@ -1,18 +1,38 @@
-.my-class {
-    border: 2px solid green;
-    padding: 10px;
-    background-color: orange;
-    display: block;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 50%;
-    box-sizing: border-box;
-  }
-  
-  .centered-image {
-    margin: auto;
-    width: 50%;
-    height: auto;
-    display: block;
-  }
+body {
+    background-image: linear-gradient(to left top, rgb(188, 188, 236), red);
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: white;
+}
+
+h2 {
+
+}
+
+h1 {
+  text-align: center;
+}
+
+.column {
+  width: 15%;
+  text-align: center;
+  float: right;
+}
+
+#elephant img {
+  width: 100%;  
+}
+
+#fox img {
+  width: 100%;
+}
+#parrot img {
+  width: 100%;
+}
+
+#tiger img {
+  width: 100%;
+}
+#dog img {
+  width: 100%;
+}
+
